@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91E51F7C195B394D008893ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E51F7B195B394D008893ED /* Foundation.framework */; };
+		91E51F7E195B394D008893ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E51F7D195B394D008893ED /* CoreGraphics.framework */; };
+		91E51F80195B394D008893ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E51F7F195B394D008893ED /* UIKit.framework */; };
+		91E51F86195B394D008893ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91E51F84195B394D008893ED /* InfoPlist.strings */; };
+		91E51F88195B394D008893ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E51F87195B394D008893ED /* main.m */; };
+		91E51F8C195B394D008893ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E51F8B195B394D008893ED /* AppDelegate.m */; };
+		91E51F8F195B394D008893ED /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E51F8D195B394D008893ED /* Main_iPhone.storyboard */; };
+		91E51F92195B394D008893ED /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E51F90195B394D008893ED /* Main_iPad.storyboard */; };
+		91E51F95195B394D008893ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E51F94195B394D008893ED /* ViewController.m */; };
+		91E51F97195B394D008893ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E51F96195B394D008893ED /* Images.xcassets */; };
+		91E51F9E195B394D008893ED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E51F9D195B394D008893ED /* XCTest.framework */; };
+		91E51F9F195B394D008893ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E51F7B195B394D008893ED /* Foundation.framework */; };
+		91E51FA0195B394D008893ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E51F7F195B394D008893ED /* UIKit.framework */; };
+		91E51FA8195B394D008893ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91E51FA6195B394D008893ED /* InfoPlist.strings */; };
+		91E51FAA195B394D008893ED /* JwellersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E51FA9195B394D008893ED /* JwellersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91E51FA1195B394D008893ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E51F70195B394D008893ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E51F77195B394D008893ED;
+			remoteInfo = Jwellers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91E51F78195B394D008893ED /* Jwellers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jwellers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E51F7B195B394D008893ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91E51F7D195B394D008893ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91E51F7F195B394D008893ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91E51F83195B394D008893ED /* Jwellers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jwellers-Info.plist"; sourceTree = "<group>"; };
+		91E51F85195B394D008893ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91E51F87195B394D008893ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91E51F89195B394D008893ED /* Jwellers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jwellers-Prefix.pch"; sourceTree = "<group>"; };
+		91E51F8A195B394D008893ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91E51F8B195B394D008893ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91E51F8E195B394D008893ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		91E51F91195B394D008893ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		91E51F93195B394D008893ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91E51F94195B394D008893ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91E51F96195B394D008893ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91E51F9C195B394D008893ED /* JwellersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JwellersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E51F9D195B394D008893ED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		91E51FA5195B394D008893ED /* JwellersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JwellersTests-Info.plist"; sourceTree = "<group>"; };
+		91E51FA7195B394D008893ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91E51FA9195B394D008893ED /* JwellersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JwellersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91E51F75195B394D008893ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E51F7E195B394D008893ED /* CoreGraphics.framework in Frameworks */,
+				91E51F80195B394D008893ED /* UIKit.framework in Frameworks */,
+				91E51F7C195B394D008893ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E51F99195B394D008893ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E51F9E195B394D008893ED /* XCTest.framework in Frameworks */,
+				91E51FA0195B394D008893ED /* UIKit.framework in Frameworks */,
+				91E51F9F195B394D008893ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91E51F6F195B394D008893ED = {
+			isa = PBXGroup;
+			children = (
+				91E51F81195B394D008893ED /* Jwellers */,
+				91E51FA3195B394D008893ED /* JwellersTests */,
+				91E51F7A195B394D008893ED /* Frameworks */,
+				91E51F79195B394D008893ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91E51F79195B394D008893ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E51F78195B394D008893ED /* Jwellers.app */,
+				91E51F9C195B394D008893ED /* JwellersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91E51F7A195B394D008893ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91E51F7B195B394D008893ED /* Foundation.framework */,
+				91E51F7D195B394D008893ED /* CoreGraphics.framework */,
+				91E51F7F195B394D008893ED /* UIKit.framework */,
+				91E51F9D195B394D008893ED /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91E51F81195B394D008893ED /* Jwellers */ = {
+			isa = PBXGroup;
+			children = (
+				91E51F8A195B394D008893ED /* AppDelegate.h */,
+				91E51F8B195B394D008893ED /* AppDelegate.m */,
+				91E51F8D195B394D008893ED /* Main_iPhone.storyboard */,
+				91E51F90195B394D008893ED /* Main_iPad.storyboard */,
+				91E51F93195B394D008893ED /* ViewController.h */,
+				91E51F94195B394D008893ED /* ViewController.m */,
+				91E51F96195B394D008893ED /* Images.xcassets */,
+				91E51F82195B394D008893ED /* Supporting Files */,
+			);
+			path = Jwellers;
+			sourceTree = "<group>";
+		};
+		91E51F82195B394D008893ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91E51F83195B394D008893ED /* Jwellers-Info.plist */,
+				91E51F84195B394D008893ED /* InfoPlist.strings */,
+				91E51F87195B394D008893ED /* main.m */,
+				91E51F89195B394D008893ED /* Jwellers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91E51FA3195B394D008893ED /* JwellersTests */ = {
+			isa = PBXGroup;
+			children = (
+				91E51FA9195B394D008893ED /* JwellersTests.m */,
+				91E51FA4195B394D008893ED /* Supporting Files */,
+			);
+			path = JwellersTests;
+			sourceTree = "<group>";
+		};
+		91E51FA4195B394D008893ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91E51FA5195B394D008893ED /* JwellersTests-Info.plist */,
+				91E51FA6195B394D008893ED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91E51F77195B394D008893ED /* Jwellers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E51FAD195B394D008893ED /* Build configuration list for PBXNativeTarget "Jwellers" */;
+			buildPhases = (
+				91E51F74195B394D008893ED /* Sources */,
+				91E51F75195B394D008893ED /* Frameworks */,
+				91E51F76195B394D008893ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jwellers;
+			productName = Jwellers;
+			productReference = 91E51F78195B394D008893ED /* Jwellers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91E51F9B195B394D008893ED /* JwellersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E51FB0195B394D008893ED /* Build configuration list for PBXNativeTarget "JwellersTests" */;
+			buildPhases = (
+				91E51F98195B394D008893ED /* Sources */,
+				91E51F99195B394D008893ED /* Frameworks */,
+				91E51F9A195B394D008893ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E51FA2195B394D008893ED /* PBXTargetDependency */,
+			);
+			name = JwellersTests;
+			productName = JwellersTests;
+			productReference = 91E51F9C195B394D008893ED /* JwellersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91E51F70195B394D008893ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "pooja patel";
+				TargetAttributes = {
+					91E51F9B195B394D008893ED = {
+						TestTargetID = 91E51F77195B394D008893ED;
+					};
+				};
+			};
+			buildConfigurationList = 91E51F73195B394D008893ED /* Build configuration list for PBXProject "Jwellers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91E51F6F195B394D008893ED;
+			productRefGroup = 91E51F79195B394D008893ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91E51F77195B394D008893ED /* Jwellers */,
+				91E51F9B195B394D008893ED /* JwellersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91E51F76195B394D008893ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E51F92195B394D008893ED /* Main_iPad.storyboard in Resources */,
+				91E51F97195B394D008893ED /* Images.xcassets in Resources */,
+				91E51F8F195B394D008893ED /* Main_iPhone.storyboard in Resources */,
+				91E51F86195B394D008893ED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E51F9A195B394D008893ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E51FA8195B394D008893ED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91E51F74195B394D008893ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E51F95195B394D008893ED /* ViewController.m in Sources */,
+				91E51F8C195B394D008893ED /* AppDelegate.m in Sources */,
+				91E51F88195B394D008893ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E51F98195B394D008893ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E51FAA195B394D008893ED /* JwellersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91E51FA2195B394D008893ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E51F77195B394D008893ED /* Jwellers */;
+			targetProxy = 91E51FA1195B394D008893ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91E51F84195B394D008893ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E51F85195B394D008893ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91E51F8D195B394D008893ED /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E51F8E195B394D008893ED /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		91E51F90195B394D008893ED /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E51F91195B394D008893ED /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		91E51FA6195B394D008893ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E51FA7195B394D008893ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91E51FAB195B394D008893ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91E51FAC195B394D008893ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91E51FAE195B394D008893ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jwellers/Jwellers-Prefix.pch";
+				INFOPLIST_FILE = "Jwellers/Jwellers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91E51FAF195B394D008893ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jwellers/Jwellers-Prefix.pch";
+				INFOPLIST_FILE = "Jwellers/Jwellers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91E51FB1195B394D008893ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jwellers.app/Jwellers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jwellers/Jwellers-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JwellersTests/JwellersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91E51FB2195B394D008893ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jwellers.app/Jwellers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jwellers/Jwellers-Prefix.pch";
+				INFOPLIST_FILE = "JwellersTests/JwellersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91E51F73195B394D008893ED /* Build configuration list for PBXProject "Jwellers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E51FAB195B394D008893ED /* Debug */,
+				91E51FAC195B394D008893ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E51FAD195B394D008893ED /* Build configuration list for PBXNativeTarget "Jwellers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E51FAE195B394D008893ED /* Debug */,
+				91E51FAF195B394D008893ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91E51FB0195B394D008893ED /* Build configuration list for PBXNativeTarget "JwellersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E51FB1195B394D008893ED /* Debug */,
+				91E51FB2195B394D008893ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91E51F70195B394D008893ED /* Project object */;
+}
