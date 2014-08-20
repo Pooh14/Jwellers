@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>COMPANY OVER VIEW</string>
+			<key>Url</key>
+			<string>about1</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>MANAGEMENT</string>
+			<key>Url</key>
+			<string>about2</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>MISSION AND VISION</string>
+			<key>Url</key>
+			<string>about3</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>MESSAGE FROM MANAGEMENT&apos;S DESK</string>
+			<key>Url</key>
+			<string>about4</string>
+		</dict>
+	</array>
+	<key>contact</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>ADDRESS</string>
+			<key>Url</key>
+			<string>contact1</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>BRANCH</string>
+			<key>Url</key>
+			<string>contact2</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>FOR BOOKING</string>
+			<key>Url</key>
+			<string>contact3</string>
+		</dict>
+	</array>
+</dict>
+</plist>
